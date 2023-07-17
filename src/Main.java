@@ -28,6 +28,7 @@ public class Main {
                 60, 50);
         Ravenclaw marcusBelby = new Ravenclaw("Marcus", "Belby", 60, 80, 60,
                 50, 40, 50);
+
         /*TASK2*/
         System.out.println("   ***Task 2 ***");
         System.out.println(harryPotter);
@@ -48,9 +49,10 @@ public class Main {
 
         Ravenclaw.compareTwoStudents(zhouChang, padmaPatil);
         Ravenclaw.compareTwoStudents(padmaPatil, marcusBelby);
+
         /*TASK4*/
         System.out.println("   ***Task 4 ***");
-        Hogwarts.compareTwoStudents(harryPotter, zachariasSmith);
-        Hogwarts.compareTwoStudents(ronWeasley, zhouChang);
+        Hogwarts.compareAnyTwoStudents(harryPotter, zachariasSmith);
+        Hogwarts.compareAnyTwoStudents(ronWeasley, zhouChang);
     }
 }

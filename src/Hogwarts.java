@@ -25,7 +25,7 @@ public abstract class Hogwarts {
     public String getSurname() {
         return surname;
     }
-    public static void compareTwoStudents (Hogwarts first, Hogwarts second) {
+    public static void compareAnyTwoStudents (Hogwarts first, Hogwarts second) {
         System.out.println(" ==> Comparing of magic and transgression power between " + first.getName() + " "
                 + first.getSurname() + " & " + second.getName() + " " + second.getSurname() + " :");
         if (first.magic > second.magic) {
